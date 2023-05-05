@@ -47,4 +47,4 @@ def integral(a, b, n): # Taking the left hand Riemann sum and adding the triangl
     return area
 
 # Output
-print("\nThe area of f(x) in the interval [", a, ",", b, "] is approximately", integral(0, 1, n), "using trapezoid method 1.\n")
+print("\nThe area of f(x) in the interval [", a, ",", b, "] is approximately", integral(a, b, n), "using trapezoid method 1.\n")

@@ -36,4 +36,4 @@ def integral(a, b, n): # Taking essentially a blend of the left and right hand R
     return area
 
 # Output
-print("\nThe area of f(x) in the interval [", a, ",", b, "] is approximately", integral(0, 1, n), "using trapezoid method 2.\n")
+print("\nThe area of f(x) in the interval [", a, ",", b, "] is approximately", integral(a, b, n), "using trapezoid method 2.\n")
